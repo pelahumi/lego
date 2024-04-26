@@ -3,6 +3,8 @@ def cesar(word, cipher):
 
     result = ''
 
+    word = word.lower()
+
     for char in word:
         if char in alphabet:
             cipher_char = alphabet[char] + cipher
